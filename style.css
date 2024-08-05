@@ -1,0 +1,83 @@
+body {
+  color: rgba(33, 35, 34, 0.532);
+  background-color: bisque;
+  font-family: 'Arial Narrow';
+  font-size: 20px;
+  line-height: 25px;
+}
+
+h1 {
+color:rgba(20, 224, 224, 0.641);
+font-family:'Times New Roman';
+font-size: 35px;
+line-height: 45px;
+}
+
+h2 {
+  color:rgba(0, 255, 255, 0.362);
+  font-family:'Times New Roman';
+  font-size: 30px;
+  line-height: 40px;
+  }
+
+  h3 {
+    color:rgba(138, 149, 149, 0.641);
+    font-family:'Times New Roman';
+    font-size: 25px;
+    line-height: 30px;
+    }
+
+  a {
+    color:rgb(32, 32, 187);
+    text-decoration: solid;
+    }
+
+  a:hover {
+    color:rgba(226, 47, 184, 0.621);
+    font-size: 30;
+    text-decoration:wavy;
+    }
+
+  i {
+    color:rgb(32, 32, 187);
+  }
+
+  i:hover {
+    color:rgba(226, 47, 184, 0.621);
+    }
+
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    background-color: aliceblue;
+  }
+  .image_profil {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .image_profil img{
+    width: 30%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 35px;
+    box-shadow: 5px 5px 10px rgba(138, 149, 149, 0.641)
+  }
+
+  .img-circle {
+    border-radius: 20%;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  .card-text {
+    padding: 20px;
+  }
+
+  .card-white {
+    background: white;
+    padding: 50px;
+    border: 3px solid lightgrey;
+  }
